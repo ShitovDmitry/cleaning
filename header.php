@@ -19,11 +19,11 @@
 		<div class="col-md-5">
 			<div class="header-menu">
 				<ul>
-					<li><a>Главная</a></li>
-					<li><a>О компании</a></li>
-					<li><a>Услуги и цены</a></li>
-					<li><a>Акции</a></li>
-					<li><a>Контакты</a></li>
+					<li><a href="/">Главная</a></li>
+					<li><a href="/o-nas">О компании</a></li>
+					<li><a href="/uslugi">Услуги и цены</a></li>
+					<li><a href="/akcii">Акции</a></li>
+					<li><a href="/kontakti">Контакты</a></li>
 				</ul>
 			</div>
 		</div>
