@@ -60,9 +60,9 @@ hr {
 :-moz-placeholder           {color:#fff;}/* Firefox 18- */
 :-ms-input-placeholder      {color:#fff;}
 
-.container{margin: 0 auto!important;}
+.container{margin: 0 auto!important;position: relative}
 .form-group{    margin-bottom: 10px;}
-
+.hidden{display: none!important;}
 .text-center{text-align: center}
 .text-right{text-align: right;}
 .text-left{text-align: left;}
@@ -250,8 +250,7 @@ hr {
 #why_us .panel .title{font-size: 25px;}
 #why_us .panel .description{font-size: 16px; padding-right: 20px;}
 
-#special_offer{padding: 60px;}
-#special_offer .slider{}
+
 
 #testimonials{padding: 60px;
 	background: #252525;
@@ -382,7 +381,7 @@ hr {
 	background-image: url(/assets/img/blob1.jpg);
 	padding: 100px 0;
 	background-position: center;
-	color: white;
+	color: black;
 }
 #promo_banner .header-block{
 	font-size: 2.7em;
@@ -391,6 +390,49 @@ hr {
 	font-size: 1.3em;
 }
 
+/********************************** Слайдер *************************************/
+#special_offer{padding: 60px; background: url('/assets/img/special_offer.jpg'); background-size:cover; background-position: center;    color: white; }
+#special_offer .slider{}
+#special_offer .control{
+	top: 40%;
+	left: 0;
+	position: absolute;
+	cursor: pointer;
+	background: url(/assets/img/caret-left.png);
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#special_offer .control#rightControl{
+	transform: rotate(180deg);
+	right:0;
+	left:inherit;
+}
+
+#slideshow #slidesContainer {
+	margin:0 auto;
+	width:100%;
+	min-height:263px;
+	overflow:auto; /* разрешаем прокрутку */
+	position:relative;
+}
+#slideshow #slidesContainer .slide {
+	text-align: center;
+	padding: 25px;
+	margin:0 auto;
+	width:100%;
+	min-height:263px;
+}
+#slideshow #slidesContainer .slide h2{font-size:2.2em}
+#slideshow #slidesContainer .slide .description{
+	margin-bottom: 25px;
+}
+#slideshow #slidesContainer .slide .button-block{
+	margin-top:50px;
+}
 
 
 

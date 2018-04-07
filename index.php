@@ -80,4 +80,7 @@
 			</div>
 		</footer>
 	</body>
+	<script src="/assets/vendor/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="/assets/js/script.js"></script>
 </html>

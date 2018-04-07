@@ -211,29 +211,21 @@
 </div>
 <div id="special_offer">
 	<div class="container">
-		<div class="cd-testimonials-wrapper cd-container">
-			<ul class="cd-testimonials">
-				<li>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<div class="cd-author">
-						<ul class="cd-author-info">
-							<li>MyName</li>
-							<li>CEO, AmberCreative</li>
-						</ul>
+		<div id="slideshow">
+			<div id="slidesContainer">
+				<div class="slide">
+					<h2>Гарантия лучшей цены</h2>
+					<div class="description">
+						Мы предлагаем вам стоимость на 5% ниже той, которую Вы платите нашим конкурентам!
 					</div>
-				</li>
-				<li>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<div class="cd-author">
-						<ul class="cd-author-info">
-							<li>MyName</li>
-							<li>CEO, AmberCreative</li>
-						</ul>
+					<div class="button-block">
+						<button class="btn btn-primary">Бесплатный расчет</button>
 					</div>
-				</li>
-			</ul>
-			<a href="#0" class="cd-see-all">See all</a>
+				</div>
+			</div>
 		</div>
+		<a class="control prev hidden" id="leftControl"></a>
+		<a class="control next hidden" id="rightControl"></a>
 	</div>
 </div>
 <div id="testimonials">
