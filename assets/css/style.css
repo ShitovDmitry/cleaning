@@ -45,9 +45,6 @@ option{
 	color: white;
 	font-size: 10px;
 }
-option[selected]{
-	background:#ff9000;
-}
 hr {
 	margin: 20px 0;
 	background: #ff9000;
@@ -286,7 +283,6 @@ hr {
 
 #faq{padding: 60px;}
 #faq .container .header-block.with-border:after{width:300px}
-
 #faq .faq-list{
 	margin: 20px 0;
 }
@@ -306,12 +302,10 @@ hr {
 	line-height: 33px;
 	font-weight: bold;
 }
-
 #faq .faq-list .faq-item input:checked + label,
 #faq .faq-list .faq-item input:checked + label:hover{
 	text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
 }
-
 #faq .faq-list .faq-item label:after,
 #faq .faq-list .faq-item input:checked + label:after{
 	content: '';
@@ -323,15 +317,12 @@ hr {
 	background: transparent url(/assets/img/caret-down.png) no-repeat right top;
 	background-size: contain;
 }
-
 #faq .faq-list .faq-item input:checked + label:after {
 	background-image: url('/assets/img/caret-left.png');
 }
-
 #faq .faq-list .faq-item input{
 	display: none;
 }
-
 #faq .faq-list .faq-item article{
 	padding: 0px 20px;
 	margin-top: -1px;
@@ -353,14 +344,12 @@ hr {
 	transition: height 0.3s ease-in-out;
 	height: 80px;
 }
-
 #faq .faq-list .faq-item article p{
 	font-style: italic;
 	color: #111;
 	font-size: 14px;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
-
 #faq .footer-block {
 	margin-top: 50px;
 }
@@ -372,8 +361,6 @@ hr {
 #faq .footer-block .link.with-border{
 	border-bottom: 2px solid #ff9000;
 }
-
-
 
 #promo_banner{
 	position: relative;
@@ -435,6 +422,181 @@ hr {
 }
 
 
+/*modal*/
+.modal {
+	z-index: 1072;
+}
+.modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1050;
+	display: none;
+	overflow: hidden;
+	outline: 0;
+}
+.fade {
+	opacity: 0;
+	transition: opacity .15s linear;
+}
+.modal.fade .modal-dialog {
+	transition: -webkit-transform .3s ease-out;
+	transition: transform .3s ease-out;
+	transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+	-webkit-transform: translate(0,-25%);
+	transform: translate(0,-25%);
+}
+.modal-dialog {
+	position: relative;
+	width: auto;
+	margin-top: 2rem!important;
+	margin: 0 auto;
+	pointer-events: none;
+	max-width: 728px;
+}
+.modal-content {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 100%;
+	pointer-events: auto;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0,0,0,.2);
+	outline: 0;
+}
+.modal-body {
+	position: relative;
+}
+.close:not(:disabled):not(.disabled) {
+	cursor: pointer;
+}
+button.close {
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+	-webkit-appearance: none;
+}
+.close {
+	float: right;
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .5;
+}
+.fade.show {
+	opacity: 1;
+}
+.modal.show .modal-dialog {
+	-webkit-transform: translate(0,0);
+	transform: translate(0,0);
+}
+.modal-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1040;
+	background-color: #000;
+}
+.modal-backdrop {
+	z-index: 100;
+}
+.modal-backdrop.show {
+	opacity: .5;
+}
 
+.modal#getConsultation .first-block{
+	text-align: center;
+	color:white;
+	background: url('/assets/img/modal-first-block.jpg');
+	background-size: contain;
+	background-position: center;
+}
+.modal#getConsultation .first-block .modal-logo{
+	margin-top: 40px;
+	max-width:80%;
+}
+.modal#getConsultation .first-block .top-list{
+	padding: 40px 0;
+}
+.modal#getConsultation .first-block .top-item{
+	padding: 0 40px;
+	font-size: 17px;
 
+}
+.modal#getConsultation .first-block .top-item:after{
+	content: '';
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: #ff9000;
+	border-radius: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.modal#getConsultation .first-block .top-item:last-child:after{display: none}
+.modal#getConsultation .second-block{
+	text-align: center;
+	background: url('/assets/img/modal-second-block.jpg');
+	background-size: contain;
+	background-position: center;
+}
+.modal#getConsultation .second-block .modal-form-block{
+	padding: 40px 10px 60px;
+}
+.modal#getConsultation .second-block .modal-form-block .modal-title-form{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.modal#getConsultation .second-block .modal-form-block .modal-form{
+	border: 3px solid black;
+	border-radius: 8px;
+	padding: 10px 40px;
+	margin: 0 15px;
+}
+.modal#getConsultation .second-block .modal-form-block .modal-form .text{
+	font-size: 12px;
+	display: block;
+	margin: 10px 0 20px;
+}
+.modal#getConsultation .second-block .modal-form-block .modal-form input{
+	border:1px solid black;
+	padding: 8px 10px;
+	border-radius: 8px;
+}
+.modal#getConsultation .second-block .modal-form-block .modal-form select{
+	color:black;
+	border:1px solid black;
+	padding: 8px 10px;
+	border-radius: 8px;
+}
+.modal#getConsultation .second-block .modal-form-block .modal-form textarea{
+	width: 100%;
+	border:1px solid black;
+	padding: 8px 10px;
+	border-radius: 8px;
+}
+.modal#getConsultation .close{
+	right: 0;
+	z-index: 2000;
+	position: absolute;
+	top: 10px;
+}
+.modal#getConsultation ::-webkit-input-placeholder {color:#000!important;}
+.modal#getConsultation ::-moz-placeholder          {color:#000;}/* Firefox 19+ */
+.modal#getConsultation :-moz-placeholder           {color:#000;}/* Firefox 18- */
+.modal#getConsultation :-ms-input-placeholder      {color:#000;}
 

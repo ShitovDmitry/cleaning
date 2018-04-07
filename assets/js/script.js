@@ -24,13 +24,12 @@ $(document).ready(function(){
 				'marginLeft' : slideWidth*(-currentPosition)
 			});
 		});
-
+	function manageControls(position){
+		// Спрятать левую стрелку, если это левый слайд
+		if(position==0){ $('#leftControl').hide() }
+		else{ $('#leftControl').show() }
+		// Спрятать правую стрелку, если это последний слайд
+		if(position==numberOfSlides-1){ $('#rightControl').hide() }
+		else{ $('#rightControl').show() }
+	}
 });
-function manageControls(position){
-	// Спрятать левую стрелку, если это левый слайд
-	if(position==0){ $('#leftControl').hide() }
-	else{ $('#leftControl').show() }
-	// Спрятать правую стрелку, если это последний слайд
-	if(position==numberOfSlides-1){ $('#rightControl').hide() }
-	else{ $('#rightControl').show() }
-}

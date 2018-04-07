@@ -7,6 +7,8 @@
 	<link href="/assets/css/mobile.css" rel="stylesheet" type="text/css">
 	<link href="/assets/vendor/bootstrap/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<script src="/assets/vendor/jquery.min.js"></script>
+	<script src="/assets/vendor/bootstrap/bootstrap.js"></script>
 </head>
 <body>
 <header>
@@ -36,7 +38,7 @@
 		</div>
 		<div class="col-md-2 text-center ">
 			<div class="zayavka">
-				<button class="btn btn-primary" data-toggle="modal" data-target="#">
+				<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation"">
 					Оставить заявку
 				</button>
 			</div>

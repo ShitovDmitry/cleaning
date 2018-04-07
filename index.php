@@ -11,7 +11,7 @@
 		</h3>
 	</div>
 	<div class="control-panel">
-		<button class="btn btn-primary">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+		<button class="btn btn-primary" data-toggle="modal" data-targer="#getConsultation">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
 	</div>
 </div>
 <div id="what_we_do">
@@ -69,7 +69,7 @@
 			<p>Уборка производится с заключением договора и предоставлением гарантий</p>
 		</div>
 		<div class="body-block row">
-			<div class="col-lg-4 col-md-2">
+			<div class="col-lg-4 col-md-6">
 				<div class="card-item">
 					<img src="/assets/icons/icons/002-house.png">
 					<div class="card-title">
@@ -77,7 +77,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-2">
+			<div class="col-lg-4 col-md-6">
 				<div class="card-item">
 					<img src="/assets/icons/icons/006-mop.png">
 					<div class="card-title">
@@ -85,7 +85,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-2">
+			<div class="col-lg-4 col-md-6">
 				<div class="card-item">
 					<img src="/assets/icons/icons/005-broom.png">
 					<div class="card-title">
@@ -93,7 +93,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-2">
+			<div class="col-lg-4 col-md-6">
 				<div class="card-item">
 					<img src="/assets/icons/icons/001-list.png">
 					<div class="card-title">
@@ -101,7 +101,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-2">
+			<div class="col-lg-4 col-md-6">
 				<div class="card-item">
 					<img src="/assets/icons/icons/003-vacuum.png">
 					<div class="card-title">
@@ -109,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-2">
+			<div class="col-lg-4 col-md-6">
 				<div class="card-item">
 					<img src="/assets/icons/icons/004-window.png">
 					<div class="card-title">
@@ -220,7 +220,7 @@
 						Мы предлагаем вам стоимость на 5% ниже той, которую Вы платите нашим конкурентам!
 					</div>
 					<div class="button-block">
-						<button class="btn btn-primary">Бесплатный расчет</button>
+						<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">Бесплатный расчет</button>
 					</div>
 				</div>
 			</div>
@@ -236,7 +236,7 @@
 		</div>
 		<div class="body-block">
 			<div class="reviews row">
-				<div class="review-item col-md-4">
+				<div class="review-item col-lg-4 col-md-12">
 					<div class="review-text">
 						Пользуюсь поддерживающей уборкой 2- 3 раза в месяц. Абсолютно все устраивает, доволен качеством и стоимость мне подходит. Часто бывают акции — менеджер обязательно напоминает по телефону при приеме заявки. Спасибо всем вашим работникам, рад, что вас нашел.
 					</div>
@@ -248,7 +248,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="review-item col-md-4">
+				<div class="review-item col-lg-4 col-md-12">
 					<div class="review-text">
 						Заказал уборку коттеджа после ремонта и мойку окон. Персонал в фирме опытный, это чувствуется. Работали четко, разделили обязанности, пользовались специальным оборудованием, которое привезли с собой. Качеством услуг доволен, рекомендую.
 					</div>
@@ -259,7 +259,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="review-item col-md-4">
+				<div class="review-item col-lg-4 col-md-12">
 					<div class="review-text">
 						Заказала на сайте уборку коттеджа. Выбрала вариант поддерживающей уборки стандарт и мойку окон. Отлично все сделали, спасибо работникам. Отметила их добросовестность и доброжелательность. Буду советовать вас своим друзьям.
 					</div>
@@ -356,7 +356,7 @@
 			<p>Мы рады Вашему звонку круглосуточно</p>
 		</div>
 		<div class="body-block text-center">
-			<button class="btn btn-primary">
+			<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
 				ЗАДАТЬ ВОПРОС
 			</button>
 		</div>
