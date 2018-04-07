@@ -211,7 +211,29 @@
 </div>
 <div id="special_offer">
 	<div class="container">
-		<div class="slider"></div>
+		<div class="cd-testimonials-wrapper cd-container">
+			<ul class="cd-testimonials">
+				<li>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="cd-author">
+						<ul class="cd-author-info">
+							<li>MyName</li>
+							<li>CEO, AmberCreative</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="cd-author">
+						<ul class="cd-author-info">
+							<li>MyName</li>
+							<li>CEO, AmberCreative</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<a href="#0" class="cd-see-all">See all</a>
+		</div>
 	</div>
 </div>
 <div id="testimonials">
@@ -290,16 +312,39 @@
 			<section class="faq-list">
 				<div class="faq-item">
 					<input id="ac-1" name="accordion-1" type="radio" checked />
-					<label for="ac-1" >О нас</label>
+					<label for="ac-1" >Опасны ли ваши химикаты?</label>
 					<article class="description">
-						<p>Какой нибудь замечательный текст... </p>
+						<p>Нет</p>
 					</article>
 				</div>
 				<div class="faq-item">
 					<input id="ac-2" name="accordion-1" type="radio" />
-					<label for="ac-2" class="title">Услуги</label>
+					<label for="ac-2" class="title">В какое время (вечером, днем) выполняются заказы, связанные
+						с уборкой?
+					</label>
 					<article class="description">
-						<p>Какой нибудь замечательный текст...</p>
+						<p>Как правило, клининговые компании работают круглосуточно и готовы приехать в любое,
+							удобное для Вас время</p>
+					</article>
+				</div>
+				<div class="faq-item">
+					<input id="ac-3" name="accordion-1" type="radio" />
+					<label for="ac-3" class="title">
+						Сколько будет сохнуть мебель после химчистки?
+					</label>
+					<article class="description">
+						<p>До 2-х часов</p>
+					</article>
+				</div>
+				<div class="faq-item">
+					<input id="ac-4" name="accordion-1" type="radio" />
+					<label for="ac-4" class="title">
+						Я построил коттедж, во сколько мне обойдется послестроительные уборочные работы?
+					</label>
+					<article class="description">
+						<p>
+							Для приблизительного подсчёта следует связаться с менеджером компании и подсчитать стоимость в зависимости от площади убираемых помещений, объема выполняемых работ, степени загрязненности здания, обеспечения к убираемой поверхности свободного доступа.
+						</p>
 					</article>
 				</div>
 			</section>
