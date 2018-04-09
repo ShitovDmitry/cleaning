@@ -600,3 +600,126 @@ button.close {
 .modal#getConsultation :-moz-placeholder           {color:#000;}/* Firefox 18- */
 .modal#getConsultation :-ms-input-placeholder      {color:#000;}
 
+
+#about-main{
+	margin-top: 120px;
+}
+#about-main .title{
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+#about-main .subtitle{
+	font-size: 15px;
+	padding: 0 60px;
+	text-align: center;
+}
+#about-main .description{
+	font-size: 15px;
+	margin-top: 20px;
+}
+#about-main .block-border{
+	border: 3px solid;
+	font-weight: bold;
+	text-align: center;
+	font-size: 17px;
+	padding: 12px 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#about-main .block-border.primari-border{
+	border-color: #ff9000;
+}
+
+#team{
+	padding: 60px 0;
+	margin-top: 60px;
+	background: #252525;
+	color: white;
+}
+#team .header-block.with-border:after{
+	width:300px;
+}
+#team .text{
+	font-size:15px;
+}
+#team .testimonials-team-list{
+	margin-top: 30px;
+}
+#team .testimonials-team-list .item-testimonial{text-align: center;padding: 0 45px;}
+#team .testimonials-team-list .item-testimonial img{
+	margin-top: 10px;
+	max-height: 120px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#team .testimonials-team-list .item-testimonial .title{font-weight: 600;}
+#team .testimonials-team-list .item-testimonial .description{
+	text-align: left;
+}
+#team .testimonials-team-list .item-testimonial .description ul{
+	font-size:13px;
+}
+#team .testimonials-team-list .item-testimonial .description ul li{
+	margin-bottom: 7px;
+	list-style-type: square;
+}
+
+#about-additional-text-block{
+	padding: 80px 0;
+	background: url(/assets/img/uborka-kottega-art.png);
+	background-size: contain;
+	background-position: left center;
+	background-repeat: no-repeat;
+
+}
+#about-additional-text-block .text-block{}
+
+#callback-block{
+	padding: 80px 0;
+	background-position: center;
+	color: white;
+	position: relative;
+	background: url(/assets/img/STOCK_Vector_set_of_cleaning_tools/21_Y2xlYW5pbmdfMS0yMQ.jpg);
+	background-size: contain;
+
+}
+#callback-block:before{
+	content: '';
+	display: block;
+	background-color: #000;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#callback-block .container .body-block{margin:0;}
+#callback-block .call-back-form{
+	padding: 30px 50px;
+}
+#callback-block .call-back-form .text{
+	font-size: 22px;
+	display: block;
+	text-align: center;
+	padding: 10px 0 40px;
+}
+#callback-block .call-back-form  .inline-form-group{
+	display: block;
+	padding: 0 50px;
+}
+
+#callback-block .call-back-form .inline-form-group .form-group{
+	float: left;
+	width: 33%;
+	text-align: center;
+	padding: 0 40px;
+}
+#callback-block .call-back-form input{
+	padding: 12px 10px;
+}
+
+
