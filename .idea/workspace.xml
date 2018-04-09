@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f669a86b-7b01-4334-9882-c02dbbdf6667" name="Default" comment="t">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/site.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/akcii.php" afterPath="$PROJECT_DIR$/akcii.php" />
+    <list default="true" id="f669a86b-7b01-4334-9882-c02dbbdf6667" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/o-nas.php" afterPath="$PROJECT_DIR$/o-nas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uslugi.php" afterPath="$PROJECT_DIR$/uslugi.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +19,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="707" column="24" lean-forward="false" selection-start-line="707" selection-start-column="24" selection-end-line="707" selection-end-column="24" />
+            <state relative-caret-position="673">
+              <caret line="752" column="24" lean-forward="false" selection-start-line="752" selection-start-column="24" selection-end-line="752" selection-end-column="24" />
               <folding>
                 <element signature="e#7#107#0" expanded="false" />
                 <element signature="e#167#226#0" expanded="false" />
@@ -122,18 +118,30 @@
                 <element signature="e#12689#12772#0" expanded="false" />
                 <element signature="e#12848#12931#0" expanded="false" />
                 <element signature="e#12961#13024#0" expanded="false" />
-                <marker date="1523268318230" expanded="true" signature="0:13328" ph="..." />
+                <element signature="e#13342#13365#0" expanded="false" />
+                <element signature="e#13384#13488#0" expanded="false" />
+                <element signature="e#13510#13570#0" expanded="false" />
+                <element signature="e#13595#13635#0" expanded="false" />
+                <element signature="e#13661#13805#0" expanded="false" />
+                <element signature="e#13846#13873#0" expanded="false" />
+                <element signature="e#13880#13957#0" expanded="false" />
+                <element signature="e#13995#14012#0" expanded="false" />
+                <element signature="e#14024#14044#0" expanded="false" />
+                <element signature="e#14074#14096#0" expanded="false" />
+                <element signature="e#14233#14314#0" expanded="false" />
+                <element signature="e#14449#14471#0" expanded="false" />
+                <element signature="e#14535#14555#0" expanded="false" />
+                <element signature="e#14622#14672#0" expanded="false" />
+                <element signature="e#14702#14871#0" expanded="false" />
+                <element signature="e#14931#15138#0" expanded="false" />
+                <element signature="e#15161#15304#0" expanded="false" />
+                <element signature="e#15386#15410#0" expanded="false" />
+                <element signature="e#15448#15530#0" expanded="false" />
+                <element signature="e#15582#15620#0" expanded="false" />
+                <element signature="e#15683#15752#0" expanded="false" />
+                <element signature="e#15790#15814#0" expanded="false" />
+                <marker date="1523269296848" expanded="true" signature="0:13328" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="o-nas.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/o-nas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="158" column="42" lean-forward="false" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -141,7 +149,7 @@
       <file leaf-file-name="akcii.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/akcii.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
+            <state relative-caret-position="817">
               <caret line="165" column="71" lean-forward="false" selection-start-line="165" selection-start-column="71" selection-end-line="165" selection-end-column="71" />
               <folding />
             </state>
@@ -152,7 +160,7 @@
         <entry file="file://$PROJECT_DIR$/uslugi.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="125" selection-end-column="26" />
+              <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -170,7 +178,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cta</find>
       <find>#why_us</find>
       <find>#why_us .panel</find>
       <find>&lt;hr</find>
@@ -200,6 +207,7 @@
       <find>.modal#getConsultation .second-block .modal-form-block</find>
       <find>testimonials-team-list</find>
       <find>#about-main .block-border</find>
+      <find>#callback-block .call-back-form .text</find>
     </findStrings>
     <replaceStrings>
       <replace>col-lg-4</replace>
@@ -221,9 +229,9 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/uslugi.php" />
         <option value="$PROJECT_DIR$/akcii.php" />
         <option value="$PROJECT_DIR$/o-nas.php" />
+        <option value="$PROJECT_DIR$/uslugi.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
@@ -445,7 +453,7 @@
       <workItem from="1523109753789" duration="121000" />
       <workItem from="1523264460707" duration="1792000" />
       <workItem from="1523266336949" duration="1788000" />
-      <workItem from="1523268152778" duration="185000" />
+      <workItem from="1523268152778" duration="1146000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1523098997605</created>
@@ -496,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523109875857</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="t">
+      <created>1523268344193</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1523268344193</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38656000" />
+    <option name="totallyTimeSpent" value="39617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1054" extended-state="6" />
@@ -553,9 +568,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="t" />
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="t" />
+    <option name="LAST_COMMIT_MESSAGE" value="t" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -723,22 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uslugi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="125" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/akcii.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="165" column="71" lean-forward="false" selection-start-line="165" selection-start-column="71" selection-end-line="165" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/o-nas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -747,10 +746,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/akcii.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="165" column="71" lean-forward="false" selection-start-line="165" selection-start-column="71" selection-end-line="165" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uslugi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="707" column="24" lean-forward="false" selection-start-line="707" selection-start-column="24" selection-end-line="707" selection-end-column="24" />
+        <state relative-caret-position="673">
+          <caret line="752" column="24" lean-forward="false" selection-start-line="752" selection-start-column="24" selection-end-line="752" selection-end-column="24" />
           <folding>
             <element signature="e#7#107#0" expanded="false" />
             <element signature="e#167#226#0" expanded="false" />
@@ -848,7 +863,29 @@
             <element signature="e#12689#12772#0" expanded="false" />
             <element signature="e#12848#12931#0" expanded="false" />
             <element signature="e#12961#13024#0" expanded="false" />
-            <marker date="1523268318230" expanded="true" signature="0:13328" ph="..." />
+            <element signature="e#13342#13365#0" expanded="false" />
+            <element signature="e#13384#13488#0" expanded="false" />
+            <element signature="e#13510#13570#0" expanded="false" />
+            <element signature="e#13595#13635#0" expanded="false" />
+            <element signature="e#13661#13805#0" expanded="false" />
+            <element signature="e#13846#13873#0" expanded="false" />
+            <element signature="e#13880#13957#0" expanded="false" />
+            <element signature="e#13995#14012#0" expanded="false" />
+            <element signature="e#14024#14044#0" expanded="false" />
+            <element signature="e#14074#14096#0" expanded="false" />
+            <element signature="e#14233#14314#0" expanded="false" />
+            <element signature="e#14449#14471#0" expanded="false" />
+            <element signature="e#14535#14555#0" expanded="false" />
+            <element signature="e#14622#14672#0" expanded="false" />
+            <element signature="e#14702#14871#0" expanded="false" />
+            <element signature="e#14931#15138#0" expanded="false" />
+            <element signature="e#15161#15304#0" expanded="false" />
+            <element signature="e#15386#15410#0" expanded="false" />
+            <element signature="e#15448#15530#0" expanded="false" />
+            <element signature="e#15582#15620#0" expanded="false" />
+            <element signature="e#15683#15752#0" expanded="false" />
+            <element signature="e#15790#15814#0" expanded="false" />
+            <marker date="1523269296848" expanded="true" signature="0:13328" ph="..." />
           </folding>
         </state>
       </provider>

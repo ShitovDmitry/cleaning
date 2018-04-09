@@ -7,7 +7,7 @@
 		<div class="body-block">
 			<div class="horizontal-tabs">
 				<div class="tab-header-block row">
-					<div class="item-tab col-lg-2" id="one">
+					<div class="item-tab active col-lg-2" id="one">
 						Уборка после строительства и ремонта
 					</div>
 					<div class="item-tab col-lg-2" id="two">
@@ -27,7 +27,7 @@
 					</div>
 				</div>
 				<div class="tab-contants-block">
-					<div class="tab-content" data-tab="one">
+					<div class="tab-content active" data-tab="one">
 						<div class="row">
 							<div class="col-lg-6">
 								<img src="/assets/img">

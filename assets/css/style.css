@@ -711,7 +711,6 @@ button.close {
 	display: block;
 	padding: 0 50px;
 }
-
 #callback-block .call-back-form .inline-form-group .form-group{
 	float: left;
 	width: 33%;
@@ -721,5 +720,71 @@ button.close {
 #callback-block .call-back-form input{
 	padding: 12px 10px;
 }
+
+#uslugi{
+	margin-top: 130px;
+}
+#uslugi .header-block.with-border:after{
+	width:300px;
+}
+#uslugi .horizontal-tabs{
+	margin-top: 90px;
+}
+#uslugi .horizontal-tabs .tab-header-block{}
+#uslugi .horizontal-tabs .tab-header-block .item-tab{
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: 2px solid #ff9000;
+	padding: 20px 10px;
+	display: block;
+	font-weight: 600;
+}
+#uslugi .horizontal-tabs .tab-header-block .item-tab:hover{
+	color:white;
+	background: #ff9000;
+}
+#uslugi .horizontal-tabs .tab-header-block .item-tab.active{
+	border-bottom: 0;
+	border-right: 2px solid #ff9000;
+	border-top: 6px solid #ff9000;
+}
+#uslugi .horizontal-tabs .tab-contants-block .tab-content{
+	margin-bottom: 80px;
+	display: none;
+	padding: 80px;
+}
+#uslugi .horizontal-tabs .tab-contants-block .tab-content.active{
+	display: block;
+	border-right:2px solid #ff9000;
+}
+#uslugi .horizontal-tabs .tab-contants-block {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+#uslugi .horizontal-tabs .tab-contants-block .tab-content .text{}
+#uslugi .horizontal-tabs .tab-contants-block .tab-content img{}
+#uslugi .horizontal-tabs .tab-contants-block .tab-content .title{}
+#uslugi .horizontal-tabs .tab-contants-block .tab-content .description{}
+#uslugi .horizontal-tabs .tab-contants-block .tab-content .title.with-border
+#uslugi .horizontal-tabs .tab-contants-block .tab-content table{}
+#uslugi .horizontal-tabs .tab-contants-block .tab-content table th{}
+#uslugi .horizontal-tabs .tab-contants-block .tab-content table tr{}
+#uslugi .horizontal-tabs .tab-contants-block .tab-content table td{}
+
+#vertikal-tab-block{}
+#vertikal-tab-block .horizontal-tab-list .tab-header-block{}
+#vertikal-tab-block .horizontal-tab-list .tab-header-block .item-tab{}
+#vertikal-tab-block .horizontal-tab-list .tab-header-block .item-tab img{}
+#vertikal-tab-block .horizontal-tab-list .tab-header-block .item-tab .content{}
+#vertikal-tab-block .horizontal-tab-list .tab-header-block .item-tab .content .title{}
+#vertikal-tab-block .horizontal-tab-list .tab-header-block .item-tab .content .description{}
+#vertikal-tab-block .horizontal-tab-list .tab-contants-block{}
+#vertikal-tab-block .horizontal-tab-list .tab-contants-block .tab-content{}
+#vertikal-tab-block .horizontal-tab-list .tab-contants-block .tab-content img{}
+#vertikal-tab-block .horizontal-tab-list .tab-contants-block .tab-content .head-title{}
+#vertikal-tab-block .horizontal-tab-list .tab-contants-block .head-title .description{}
+
+
 
 
