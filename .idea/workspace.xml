@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f669a86b-7b01-4334-9882-c02dbbdf6667" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/mobile.css" afterPath="$PROJECT_DIR$/assets/css/mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/script.js" afterPath="$PROJECT_DIR$/assets/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uslugi.php" afterPath="$PROJECT_DIR$/uslugi.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -536,7 +529,7 @@
       <workItem from="1523359490363" duration="1792000" />
       <workItem from="1523361312382" duration="1788000" />
       <workItem from="1523363122371" duration="1103000" />
-      <workItem from="1523365915375" duration="1125000" />
+      <workItem from="1523365915375" duration="1136000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1523098997605</created>
@@ -622,11 +615,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523362627819</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="t">
+      <created>1523367050346</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523367050346</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48000000" />
+    <option name="totallyTimeSpent" value="48011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1054" extended-state="6" />
