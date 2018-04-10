@@ -1,4 +1,8 @@
 <?php require_once $_SERVER["DOCUMENT_ROOT"]."/header.php"?>
+<?php
+	$tab = isset($_GET["tab"]) ? $_GET["tab"] : null;
+?>
+
 <div id="uslugi">
 	<div class="container">
 		<div class="header-block with-border">
@@ -7,22 +11,22 @@
 		<div class="body-block">
 			<div class="horizontal-tabs">
 				<div class="tab-header-block row">
-					<div class="item-tab active col-lg-2" id="one">
+					<div class="item-tab <?=!$tab||$tab == "one" ? "active": ""?> col-lg-2" id="one">
 						Уборка после строительства и ремонта
 					</div>
-					<div class="item-tab col-lg-2" id="two">
+					<div class="item-tab <?=$tab == "two" ? "active": ""?> col-lg-2" id="two">
 						Генеральная уборка
 					</div>
-					<div class="item-tab col-lg-2"  id="three">
+					<div class="item-tab <?=$tab == "three" ? "active": ""?> col-lg-2"  id="three">
 						Регулярная (поддерживающая) убока
 					</div>
-					<div class="item-tab col-lg-2"  id="four">
+					<div class="item-tab <?=$tab == "four" ? "active": ""?> col-lg-2"  id="four">
 						Уборка коммерческих помещений
 					</div>
-					<div class="item-tab col-lg-2"  id="five">
+					<div class="item-tab <?=$tab == "five" ? "active": ""?> col-lg-2"  id="five">
 						Химчистка ковров и мягкой мебели
 					</div>
-					<div class="item-tab col-lg-2"  id="six">
+					<div class="item-tab <?=$tab == "six" ? "active": ""?> col-lg-2"  id="six">
 						Мытье окон
 					</div>
 				</div>

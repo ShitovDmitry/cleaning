@@ -1,0 +1,39 @@
+@media (max-width: 768px){
+	header .container, footer .container{
+		max-width:100%!important;
+	}
+	#cta img.cta-image{
+		display: none;
+	}
+	.logo img{
+		width: 100%;
+	}
+	.hidden-xs{
+		display: none;
+	}
+	.visible-xs{
+		display: block;
+	}
+	#what_we_do .card-item{
+		text-align: center;
+	}
+	header .open-menu, footer .open-menu {
+		float: right;
+		display: block;
+		margin-top: 30px;
+		color: #ff9000;
+		border: 1px solid;
+		width: 48px;
+		height: 41px;
+		text-align: center;
+		padding: 5px;
+	}
+	#cta .call-action-form {
+		margin: 0 auto;
+		 float: none;
+	}
+}
+
+.visible-xs{
+	display: none;
+}

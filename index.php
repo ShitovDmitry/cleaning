@@ -70,52 +70,52 @@
 		</div>
 		<div class="body-block row">
 			<div class="col-lg-4 col-md-6">
-				<div class="card-item">
+				<a href="/uslugi?tab=one" class="card-item">
 					<img src="/assets/icons/icons/002-house.png">
 					<div class="card-title">
 						Уборка после строительства или ремонта
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="card-item">
+				<a href="/uslugi?tab=two" class="card-item">
 					<img src="/assets/icons/icons/006-mop.png">
 					<div class="card-title">
 						Генеральная уборка
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="card-item">
+				<a href="/uslugi?tab=three" class="card-item">
 					<img src="/assets/icons/icons/005-broom.png">
 					<div class="card-title">
 						Регулярная (поддерживающая) уборка
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="card-item">
+				<a href="/uslugi?tab=four" class="card-item">
 					<img src="/assets/icons/icons/001-list.png">
 					<div class="card-title">
 						Уборка коммерческих помещений
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="card-item">
+				<a href="/uslugi?tab=five" class="card-item">
 					<img src="/assets/icons/icons/003-vacuum.png">
 					<div class="card-title">
 						Химчистка ковров и мягкой мебели
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<div class="card-item">
+				<a href="/uslugi?tab=six" class="card-item">
 					<img src="/assets/icons/icons/004-window.png">
 					<div class="card-title">
 						Мытье окон
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 		<div class="footer-block">
@@ -124,12 +124,12 @@
 	</div>
 </div>
 <div id="cta">
+	<img src="/assets/img/CLEANING-LADY.png" class="cta-image">
 	<div class="container">
 		<div class="header-block">
 			Узнайте точную стоимость работ<br> всего за 1 минуту!
 		</div>
-		<img src="/assets/img/CLEANING-LADY.png" class="cta-image">
-		<div class="body-block text-right clearfix">
+		<div class="body-block clearfix">
 			<form action="" class="call-action-form">
 				<div class="form-header">
 					Свяжитесь с нами ПРЯМО СЕЙЧАС и мы перезвоним Вам в течение 15 минут!
@@ -280,16 +280,16 @@
 				</div>
 			</div>
 			<div class="partners row">
-				<div class="partner-item col-lg-3 col-md-6">
+				<div class="partner-item col-lg-3 col-sm-6 text-center">
 					<img src="/assets/img/p-1.png">
 				</div>
-				<div class="partner-item col-lg-3 col-md-6">
+				<div class="partner-item col-lg-3 col-sm-6 text-center">
 					<img src="/assets/img/p-2.png">
 				</div>
-				<div class="partner-item col-lg-3 col-md-6">
+				<div class="partner-item col-lg-3 col-sm-6 text-center">
 					<img src="/assets/img/p-3.png">
 				</div>
-				<div class="partner-item col-lg-3 col-md-6">
+				<div class="partner-item col-lg-3 col-sm-6 text-center">
 					<img src="/assets/img/p-4.png">
 				</div>
 			</div>

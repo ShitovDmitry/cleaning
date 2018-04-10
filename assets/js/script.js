@@ -33,7 +33,7 @@ $(document).ready(function(){
 		if(position==numberOfSlides-1){ $('#rightControl').hide() }
 		else{ $('#rightControl').show() }
 	}
-
+	$horizontalTabs.find(".item-tab.active").trigger("click");
 
 
 	$horizontalTabs.on("click", ".item-tab", function(){
