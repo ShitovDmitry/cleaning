@@ -1,4 +1,5 @@
-
+var $horizontalTabs = $(".horizontal-tabs");
+var $verticalTabs = $(".vertical-tabs");
 $(document).ready(function(){
 	var currentPosition = 0;
 	var slideWidth = $("#slidesContainer").width();
@@ -32,4 +33,21 @@ $(document).ready(function(){
 		if(position==numberOfSlides-1){ $('#rightControl').hide() }
 		else{ $('#rightControl').show() }
 	}
+
+
+
+	$horizontalTabs.on("click", ".item-tab", function(){
+		$horizontalTabs.find(".tab-content, .item-tab").removeClass("active");
+		var $this = $(this);
+		$this.addClass("active");
+		var dataTab = $this.attr("id");
+		$horizontalTabs.find(".tab-content[data-tab='"+dataTab+"']").addClass("active");
+	});
+	$verticalTabs.on("click", ".item-tab", function(){
+		$verticalTabs.find(".tab-content, .item-tab").removeClass("active");
+		var $this = $(this);
+		$this.addClass("active");
+		var dataTab = $this.attr("id");
+		$verticalTabs.find(".tab-content[data-tab='"+dataTab+"']").addClass("active");
+	});
 });

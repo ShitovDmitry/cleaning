@@ -5,13 +5,13 @@
 			СКИДКИ И АКЦИИ
 		</div>
 		<div class="body-block">
-			<div class="horizontal-tab-list">
+			<div class="vertical-tabs">
 				<div class="tab-header-block">
-					<div class="item-tab" id="one">
-						<div class="pull-left">
-							<img src="/assets/img/">
+					<div class="item-tab active" id="one">
+						<div class="inline-block block-image">
+							<img src="/assets/img/card.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								СКИДОЧНАЯ КАРТА
 							</div>
@@ -21,10 +21,10 @@
 						</div>
 					</div>
 					<div class="item-tab" id="two">
-						<div class="pull-left">
-							<img src="/assets/img/">
+						<div class="inline-block block-image">
+							<img src="/assets/img/present-card.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								Подарочный сертификат
 							</div>
@@ -34,10 +34,10 @@
 						</div>
 					</div>
 					<div class="item-tab" id="three">
-						<div class="pull-left">
-							<img src="/assets/img/">
+						<div class="inline-block block-image">
+							<img src="/assets/img/user-plus.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								Приведи друга и получите
 								скидку 500 рублей!
@@ -48,10 +48,10 @@
 						</div>
 					</div>
 					<div class="item-tab" id="four">
-						<div class="pull-left">
-							<img src="/assets/img/">
+						<div class="inline-block block-image">
+							<img src="/assets/img/clock.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								Скидка 500 рублей за опоздание
 							</div>
@@ -61,10 +61,10 @@
 						</div>
 					</div>
 					<div class="item-tab" id="five">
-						<div class="pull-left">
-							<img src="/assets/img/">
+						<div class="inline-block block-image">
+							<img src="/assets/img/hands.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								Мир. Дружба. Жвачка.
 							</div>
@@ -74,10 +74,10 @@
 						</div>
 					</div>
 					<div class="item-tab" id="six">
-						<div class="pull-left">
-							<img src="/assets/img/">
+						<div class="inline-block block-image">
+							<img src="/assets/img/discount.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								Скидка 50% на химчистку
 								мягкой мебели
@@ -88,10 +88,10 @@
 						</div>
 					</div>
 					<div class="item-tab" id="seven">
-						<div class="pull-left">
-							<img src="/assets/img/">
+						<div class="inline-block block-image">
+							<img src="/assets/img/present.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								Влажная уборка в подарок
 							</div>
@@ -101,10 +101,10 @@
 						</div>
 					</div>
 					<div class="item-tab" id="eight">
-						<div class="pull-left">
-							<img src="/assets/img/">
+						<div class="inline-block block-image">
+							<img src="/assets/img/calendar.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								месяц уборки БЕСПЛАТНО
 							</div>
@@ -114,10 +114,10 @@
 						</div>
 					</div>
 					<div class="item-tab" id="nine">
-						<div class="pull-left">
-							<img src="/assets/img/">
+						<div class="inline-block block-image">
+							<img src="/assets/img/present.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								Влажная уборка в подарок
 							</div>
@@ -127,10 +127,10 @@
 						</div>
 					</div>
 					<div class="item-tab" id="ten">
-						<div class="pull-left">
-							<img src="/assets/img/">
+						<div class="inline-block block-image">
+							<img src="/assets/img/like.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								Гарантия лучшей цены
 							</div>
@@ -140,10 +140,10 @@
 						</div>
 					</div>
 					<div class="item-tab" id="eleven">
-						<div class="pull-left">
-							<img src="/assets/img/">
+						<div class="inline-block block-image">
+							<img src="/assets/img/plus-circle.png">
 						</div>
-						<div class="content">
+						<div class="inline-block content">
 							<div class="title">
 								Генеральная уборка офиса
 								бесплатно
@@ -155,15 +155,17 @@
 					</div>
 				</div>
 				<div class="tab-contants-block">
-					<div class="tab-content" data-tab="one">
-						<img src="/assets/img/">
+					<div class="tab-content active" data-tab="one">
+						<img src="/assets/img/10-discount.jpg">
 						<div class="head-title">
-
+							СКИДОЧНАЯ КАРТА
 						</div>
-						<div class="description">
-
+						<div class="description text-center">
+							При первом заказе Вы получаете в подарок пластиковую карту со скидкой 10% на все виды услуг от кампании "ЧИСТАЯ ПОБЕДА"
 						</div>
-						<button class="btn btn-primary">ПОЛУЧИТЬ СКИДКУ</button>
+						<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
+							ПОЛУЧИТЬ СКИДКУ
+						</button>
 					</div>
 					<div class="tab-content" data-tab="two">
 

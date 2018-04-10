@@ -30,16 +30,19 @@
 					<div class="tab-content active" data-tab="one">
 						<div class="row">
 							<div class="col-lg-6">
-								<img src="/assets/img">
+								<img src="/assets/img/after-remont.jpg">
 							</div>
 							<div class="col-lg-6">
 								<div class="title">
 									Уборка после строительства или ремонта
 								</div>
 								<div class="description">
-									Приобретя городскую квартиру, построив загородный дом, новоселы обустраивают свое гнездышко, чтобы чувствовать себя комфортно. К ремонту или строительству , как правило, готовятся заранее, настраивают себя на финансовые затраты и некоторые неудобства.
+									<p>Приобретя городскую квартиру, построив загородный дом, новоселы обустраивают
+									свое гнездышко, чтобы чувствовать себя комфортно. К ремонту или строительству ,
+										как правило, готовятся заранее, настраивают себя на финансовые затраты и
+										некоторые неудобства.</p>
 
-									И вот когда дело подходит к концу, встает другая проблема – навести чистоту.
+									<p>И вот когда дело подходит к концу, встает другая проблема – навести чистоту.</p>
 
 								</div>
 							</div>
@@ -47,10 +50,17 @@
 						<div class="text">
 							<p>Почему не самостоятельно?</p>
 							<p>Вы хотите радоваться обновлённому дому без многочасовых, а порой и многодневных ползаний с тряпкой и ведром?
-								Обращайтесь, мы наведём порядок быстро и профессионально!
+								Обращайтесь, мы наведём порядок быстро и профессионально!</p>
 
-								Ведь как бы аккуратно не работали строители или специалисты по ремонту, без строительной пыли не обойтись. Даже если сделан самый простенький косметический ремонт, она набьется везде, как бы не закрывали мебель и домашние вещи пленкой. А следы от малярного скотча, пятна краски, разводы на окнах, грязные двери и радиаторы отопления? Все не перечислить. Грандиозная уборка — это то, что предстоит перед тем как с комфортом расположиться в «своей крепости».
-								Чтобы привести все помещение в порядок, необходимо иметь в запасе достаточно свободного времени, да и силы тоже понадобятся. В настоящее время такая проблема, как уборка после строительства или ремонта, может быть решена легко и быстро. Достаточно обратиться в клининговую компанию. Тогда уборка пройдет для Вас незаметно.</p>
+								<p>Ведь как бы аккуратно не работали строители или специалисты по ремонту, без
+									  строительной пыли не обойтись. Даже если сделан самый простенький косметический
+									ремонт, она набьется везде, как бы не закрывали мебель и домашние вещи пленкой. А
+									следы от малярного скотча, пятна краски, разводы на окнах, грязные двери и радиаторы отопления? Все не перечислить.
+									Грандиозная уборка — это то, что предстоит перед тем как с комфортом расположиться в «своей крепости».</p>
+								<p>Чтобы привести все помещение в порядок, необходимо иметь в запасе достаточно
+									   свободного времени, да и силы тоже понадобятся. В настоящее время такая проблема,
+									как уборка после строительства или ремонта, может быть решена легко и быстро.
+									Достаточно обратиться в клининговую компанию. Тогда уборка пройдет для Вас незаметно.</p>
 						</div>
 						<div class="title with-border">
 							Список основных работ
@@ -69,7 +79,7 @@
 								<li>кухня: сухая чистка всех поверхностей. При наличии уже установленной встроенной кухонной мебели обеспыливаются все внешние и внутренние поверхности шкафов.</li>
 							</ul>
 						</div>
-						<div class="title with-border">
+						<div class="title price with-border">
 							ЦЕНЫ НА УСЛУГИ
 						</div>
 						<div class="text">
@@ -77,10 +87,10 @@
 								<thead>
 									<tr>
 										<th>
-											площадь помещения
+											площадь помещения (м2)
 										</th>
 										<th>
-
+											Цена за 1 м2 (руб.)
 										</th>
 									</tr>
 								</thead>
@@ -120,14 +130,16 @@
 								</tbody>
 							</table>
 						</div>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
-							ЗАКАЗАТЬ УБОРКУ
-						</button>
+						<div class="text-center button-block">
+							<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
+								ЗАКАЗАТЬ УБОРКУ
+							</button>
+						</div>
 					</div>
 					<div class="tab-content" data-tab="two">
 						<div class="row">
 							<div class="col-lg-6">
-								<img src="/assets/img">
+								<img src="/assets/img/general.jpg">
 							</div>
 							<div class="col-lg-6">
 								<div class="title">
@@ -165,11 +177,21 @@
 								<li>химчистка мягкой мебели, ковров и др.</li>
 							</ul>
 						</div>
-						<div class="title with-border">
+						<div class="title price with-border">
 							ЦЕНЫ НА УСЛУГИ
 						</div>
 						<div class="text">
 							<table>
+								<thead>
+								<tr>
+									<th>
+										площадь помещения (м2)
+									</th>
+									<th>
+										Цена за 1 м2 (руб.)
+									</th>
+								</tr>
+								</thead>
 								<tbody>
 									<tr>
 										<td>до 40</td>
@@ -206,14 +228,16 @@
 								</tbody>
 							</table>
 						</div>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
-							ЗАКАЗАТЬ УБОРКУ
-						</button>
+						<div class="text-center button-block">
+							<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
+								ЗАКАЗАТЬ УБОРКУ
+							</button>
+						</div>
 					</div>
 					<div class="tab-content" data-tab="three">
 						<div class="row">
 							<div class="col-lg-6">
-								<img src="/assets/img">
+								<img src="/assets/img/regular.jpg">
 							</div>
 							<div class="col-lg-6">
 								<div class="title">
@@ -247,11 +271,21 @@
 								<li>Кухня: удаление локальных загрязнений с кафельной плитки (фартук), чистка смесителя, раковины, удаление локальных загрязнений с наружных поверхностей шкафов, холодильников, и др. бытовой техники, чистка варочной поверхности плиты.</li>
 							</ul>
 						</div>
-						<div class="title with-border">
+						<div class="title price with-border">
 							ЦЕНЫ НА УСЛУГИ
 						</div>
 						<div class="text">
 							<table>
+								<thead>
+								<tr>
+									<th>
+										площадь помещения (м2)
+									</th>
+									<th>
+										Цена за 1 м2 (руб.)
+									</th>
+								</tr>
+								</thead>
 								<tbody>
 									<tr>
 										<td>до 40</td>
@@ -288,14 +322,16 @@
 								</tbody>
 							</table>
 						</div>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
-							ЗАКАЗАТЬ УБОРКУ
-						</button>
+						<div class="text-center button-block">
+							<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
+								ЗАКАЗАТЬ УБОРКУ
+							</button>
+						</div>
 					</div>
 					<div class="tab-content" data-tab="four">
 						<div class="row">
 							<div class="col-lg-6">
-								<img src="/assets/img">
+								<img src="/assets/img/commerce.jpg">
 							</div>
 							<div class="col-lg-6">
 								<div class="title">
@@ -339,20 +375,22 @@
 								<li>Вынос мусора в мусорные контейнеры, предоставленные Заказчиком</li>
 							</ul>
 						</div>
-						<div class="title with-border">
+						<div class="title price with-border">
 							ЦЕНЫ НА УСЛУГИ
 						</div>
 						<div class="text">
 							Расчитывается индивидуально на основании объема работ. Для расчета стоимости оставьте заявку и мы свяжемся с Вами в течении 15 минут
 						</div>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
-							ЗАКАЗАТЬ УБОРКУ
-						</button>
+						<div class="text-center button-block">
+							<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
+								ЗАКАЗАТЬ УБОРКУ
+							</button>
+						</div>
 					</div>
 					<div class="tab-content" data-tab="five">
 						<div class="row">
 							<div class="col-lg-6">
-								<img src="/assets/img">
+								<img src="/assets/img/chemical.jpg">
 							</div>
 							<div class="col-lg-6">
 								<div class="title">
@@ -391,9 +429,11 @@
 							</ul>
 							<p>При сильных загрязнениях стоимость может быть увеличена.</p>
 						</div>
-						<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
-							ЗАКАЗАТЬ УБОРКУ
-						</button>
+						<div class="text-center button-block">
+							<button class="btn btn-primary" data-toggle="modal" data-target="#getConsultation">
+								ЗАКАЗАТЬ УБОРКУ
+							</button>
+						</div>
 					</div>
 					<div class="tab-content" data-tab="six">
 
