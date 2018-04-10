@@ -1,5 +1,6 @@
 var $horizontalTabs = $(".horizontal-tabs");
 var $verticalTabs = $(".vertical-tabs");
+var $openMenu = $(".open-menu");
 $(document).ready(function(){
 	var currentPosition = 0;
 	var slideWidth = $("#slidesContainer").width();
@@ -49,5 +50,9 @@ $(document).ready(function(){
 		$this.addClass("active");
 		var dataTab = $this.attr("id");
 		$verticalTabs.find(".tab-content[data-tab='"+dataTab+"']").addClass("active");
+	});
+
+	$openMenu.click(function(){
+		$(".site-menu").toggleClass("hidden-xs");
 	});
 });

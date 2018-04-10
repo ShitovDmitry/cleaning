@@ -9,7 +9,7 @@
 		width: 100%;
 	}
 	.hidden-xs{
-		display: none;
+		display: none!important
 	}
 	.visible-xs{
 		display: block;
@@ -31,6 +31,52 @@
 	#cta .call-action-form {
 		margin: 0 auto;
 		 float: none;
+	}
+
+	header .site-menu {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 96px;
+		background: #252525;
+	}
+	header .site-menu li {
+
+		padding-left: 0px!important;
+		display: block;
+		width: 100%;
+	}
+	header .site-menu ul li a {
+		border-bottom: 1px solid #484848;
+		line-height: 3em;
+	}
+	#about-additional-text-block {
+		background-position: -360px center;
+	}
+	#callback-block .call-back-form .inline-form-group .form-group{
+		width:100%;
+		float:none;
+	}
+	#uslugi .horizontal-tabs .tab-header-block .item-tab{
+		border-right: 2px solid #ff9000!important;
+		border-left: 2px solid #ff9000!important;
+		border-top: 2px solid #ff9000!important;
+		border-bottom: 2px solid #ff9000!important;
+		margin-bottom: 2px;
+	}
+	#uslugi .horizontal-tabs .tab-header-block .item-tab.active{
+		background: #ff9000;
+		color:white;
+	}
+	#vertikal-tab-block .vertical-tabs .tab-header-block{
+		width:25%;
+	}
+	#vertikal-tab-block .vertical-tabs .tab-contants-block{
+		width: calc(100% - 27%);
+	}
+
+	#vertikal-tab-block .vertical-tabs .tab-header-block .item-tab .block-image {
+		width: 100%;
 	}
 }
 

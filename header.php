@@ -20,7 +20,7 @@
 				<img src="/assets/img/logo_white.png">
 			</a>
 		</div>
-		<div class="col-md-5 hidden-xs">
+		<div class="col-md-5 hidden-xs site-menu">
 			<div class="header-menu ">
 				<ul>
 					<li><a href="/">Главная</a></li>

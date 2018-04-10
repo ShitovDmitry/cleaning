@@ -125,16 +125,16 @@
 				</div>
 			</div>
 			<div class="partners row">
-				<div class="partner-item col-lg-3 col-md-6">
+				<div class="partner-item col-lg-3 col-sm-6">
 					<img src="/assets/img/p-1.png">
 				</div>
-				<div class="partner-item col-lg-3 col-md-6">
+				<div class="partner-item col-lg-3 col-sm-6">
 					<img src="/assets/img/p-2.png">
 				</div>
-				<div class="partner-item col-lg-3 col-md-6">
+				<div class="partner-item col-lg-3 col-sm-6">
 					<img src="/assets/img/p-3.png">
 				</div>
-				<div class="partner-item col-lg-3 col-md-6">
+				<div class="partner-item col-lg-3 col-sm-6">
 					<img src="/assets/img/p-4.png">
 				</div>
 			</div>

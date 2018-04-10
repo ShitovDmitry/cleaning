@@ -11,7 +11,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/card.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								СКИДОЧНАЯ КАРТА
 							</div>
@@ -24,7 +24,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/present-card.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								Подарочный сертификат
 							</div>
@@ -37,7 +37,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/user-plus.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								Приведи друга и получите
 								скидку 500 рублей!
@@ -51,7 +51,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/clock.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								Скидка 500 рублей за опоздание
 							</div>
@@ -64,7 +64,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/hands.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								Мир. Дружба. Жвачка.
 							</div>
@@ -77,7 +77,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/discount.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								Скидка 50% на химчистку
 								мягкой мебели
@@ -91,7 +91,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/present.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								Влажная уборка в подарок
 							</div>
@@ -104,7 +104,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/calendar.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								месяц уборки БЕСПЛАТНО
 							</div>
@@ -117,7 +117,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/present.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								Влажная уборка в подарок
 							</div>
@@ -130,7 +130,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/like.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								Гарантия лучшей цены
 							</div>
@@ -143,7 +143,7 @@
 						<div class="inline-block block-image">
 							<img src="/assets/img/plus-circle.png">
 						</div>
-						<div class="inline-block content">
+						<div class="inline-block hidden-xs content">
 							<div class="title">
 								Генеральная уборка офиса
 								бесплатно
